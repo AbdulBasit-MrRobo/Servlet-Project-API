@@ -34,7 +34,7 @@ public class quote extends HttpServlet {
 		HttpResponse<String> res = null;
 		HttpRequest req = HttpRequest.newBuilder()
 				.uri(URI.create("https://quotejoy.p.rapidapi.com/random"))
-				.header("x-rapidapi-key", "2ac0482d53msh1ebd4bcb1a9053cp14faaejsn381821dfdd79")
+				.header("x-rapidapi-key", "<YOUR-KEY>")
 				.header("x-rapidapi-host", "quotejoy.p.rapidapi.com")
 				.method("GET", HttpRequest.BodyPublishers.noBody())
 				.build();
